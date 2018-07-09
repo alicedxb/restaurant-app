@@ -87,7 +87,7 @@ nav h1 a {
     margin: 0;
     width: calc(50% - 80px);
     top: 75px;
-    position: fixed;
+    position: relative;
 }
 
 /* Display list items side by side */
