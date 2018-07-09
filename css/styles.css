@@ -123,9 +123,10 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: #3397DB;
   align-items: center;
+  padding: 10px 0 0 0;
 }
 .filter-options h2 {
   color: white;
@@ -159,6 +160,8 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 #restaurants-list li {
   background-color: #fff;
@@ -241,7 +244,9 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+  width: 90%;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -264,6 +269,7 @@ nav h1 a {
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
   width: 50%;
+  box-sizing: border-box;
 }
 #reviews-container {
   width: 100%;
@@ -295,8 +301,11 @@ nav h1 a {
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
+  overflow: hidden;
   position: relative;
   width: 85%;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 #reviews-list li p {
   margin: 0 0 10px;
