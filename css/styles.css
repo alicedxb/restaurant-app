@@ -147,6 +147,12 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
+#restaurants-thumbnails {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
