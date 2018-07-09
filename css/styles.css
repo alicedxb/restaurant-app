@@ -290,15 +290,4 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
-#reviews-list li > p:last-child {
-  margin: 0 0 10px;
-  padding: 0 30px 0 0;
-}
-#reviews-list li div + p {
-  display: inline;
-  margin-left: 30px;
-  padding: 5px 10px 0 0;
-}
-#reviews-list li div p:nth-child(2) {
-  margin-left: auto;
-}
+
