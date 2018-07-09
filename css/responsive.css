@@ -49,6 +49,12 @@
   #reviews-container {
     width: 100%;
   }
+  #reviews-list li {
+    width: 90%;
+  }
+  #footer {
+    width: 100%;
+  }
   #filter-options h2 {
     margin: 0 5px 0 0;
   }
@@ -68,6 +74,12 @@
   }
   #restaurant-list p {
     font-size: 10pt;
+  }
+  #reviews-list li {
+    width: 90%;
+  }
+  #footer {
+    width: 100%;
   }
 }
 @media screen and (max-width: 490px) {
@@ -101,6 +113,9 @@
   #reviews-list li {
     width: 80%;
   }
+  #footer {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 458px) {
@@ -109,6 +124,12 @@
   }
   #footer {
     padding: 5px;
+  }
+  #reviews-list li {
+    width: 80%;
+  }
+  #footer {
+    width: 100%;
   }
 
 @media screen and (max-width: 390px) {
@@ -132,7 +153,13 @@
     width: 100%;
   }
   #reviews-container {
-    padding: 0;
+    padding: 0;   
+  }
+  #reviews-list li {
+    width: 90%;
+  }
+  #footer {
+    width: 100%;
   }
 }
 
@@ -148,6 +175,10 @@
     margin: 10px 2px 0 0;
   }
   #footer {
+    width: 100%;
     padding: 3px;
+  }
+  #reviews-list li {
+    width: 90%;
   }
 }
