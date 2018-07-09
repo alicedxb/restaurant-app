@@ -153,8 +153,6 @@
   overflow: hidden;
   position: relative;
   width: 85%;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -172,6 +170,14 @@
   padding: 5px 10px;
   margin-left: 30px;
 }
+#reviews-list li div p:first-child {
+  font-weight: bold;
+}
+
+#reviews-list li div p:nth-child(2) {
+  margin-left: auto;
+}
+
 #restaurant-hours td {
   color: #666;
 }
