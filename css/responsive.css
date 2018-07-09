@@ -2,7 +2,7 @@
 @media screen and (max-width: 768px) {
   .inside header {
     width: 100%;
-    position: static;
+    position: relative;
   }
   .inside #maincontent {
     width: 100%;
@@ -15,11 +15,11 @@
   .inside #map-container {
     width: 100%;
     height: 300px;
-    position: static;
+    position: relative;
   }
   .inside #breadcrumb {
     width: 100%;
-    position: static;
+    position: relative;
     padding: 10px 0 16px 0;
   }
   #restaurant-container {
