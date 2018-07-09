@@ -1,0 +1,156 @@
+/* ====================== Media Queries ====================== */
+@media screen and (max-width: 768px) {
+  .inside header {
+    width: 100%;
+    position: static;
+  }
+  .inside #maincontent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .inside #map-container {
+    width: 100%;
+    height: 300px;
+    position: static;
+  }
+  .inside #breadcrumb {
+    width: 100%;
+    position: static;
+    padding: 10px 0 16px 0;
+  }
+  #restaurant-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+  }
+  #restaurant-img {
+    width: 100%;
+    height: 50%;
+  }
+  #restaurant-cuisine {
+    width: 100%;
+  }
+  #restaurant-address {
+    width: 100%;
+    font-size: 16pt;
+  }
+  #restaurant-hours {
+    width: 50%;
+  }
+  #restaurant-list li {
+    width: 260px;
+    padding: 0 10px 25px 0;
+  }
+  #restaurant-list li h1 {
+    font-size: 12pt;
+  }
+  #reviews-container {
+    width: 100%;
+  }
+  #filter-options h2 {
+    margin: 0 5px 0 0;
+  }
+  #filter-options select {
+    height: 30px;
+    width: 160 px;
+    font-size: 10pt;
+    margin: 10px 3px 0 0;
+  }
+}
+@media screen and (max-width: 675px) {
+  #restaurant-list li {
+    width: 250px;
+    padding: 0 10px 25px 0;
+    margin: 3px;
+    border: 2px solid #ccc;
+  }
+  #restaurant-list p {
+    font-size: 10pt;
+  }
+}
+@media screen and (max-width: 490px) {
+  nav h1 a {
+    font-size: 18pt;
+  }
+  #restaurant-name {
+    font-size: 16pt;
+  }
+  #restaurant-address {
+    font-size: 14pt;
+  }
+  #restaurant-hours {
+    width: 80%;
+  }
+  #reviews-container {
+    width: 100%;
+    padding: 30px 0 80px 0;
+  }
+  #reviews-container h2 {
+    padding-left: 25px;
+    font-size: 16pt;
+  }
+  #reviews-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #reviews-list li {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .filter-options h2 {
+    display: none;
+  }
+  #footer {
+    padding: 5px;
+  }
+
+@media screen and (max-width: 390px) {
+  nav h1 a {
+    font-size: 14pt;
+    font-weight: 400;
+    letter-spacing: 4px;
+  }
+  header {
+    height: 50px;
+  }
+  #restaurant-name {
+    font-size: 14pt;
+    font-weight: 400px;
+    letter-spacing: 2px;
+  }
+  #restaurant-address {
+    font-size: 10pt;
+  }
+  #restaurant-hours {
+    width: 100%;
+  }
+  #reviews-container {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  nav h1 a {
+    font-size: 12pt;
+    letter-spacing: 2px;
+  }
+  .filter-options select {
+    width: 125px;
+    font-size: 8pt;
+    padding: 0 5px 0 0;
+    margin: 10px 2px 0 0;
+  }
+  #footer {
+    padding: 3px;
+  }
+}
