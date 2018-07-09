@@ -14,7 +14,6 @@
   .inside #map-container {
     width: 100%;
     height: 300px;
-    position: static;
   }
   .inside #breadcrumb {
     width: 100%;
