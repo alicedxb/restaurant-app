@@ -298,12 +298,12 @@ nav h1 a {
     border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
-  margin: 0 0 30px;
+  margin-bottom: 20px;
   overflow: hidden;
-  padding: 0;
+  padding: 30px 20px 20px 30px;
   overflow: hidden;
   position: relative;
-  width: 85%;
+  width: 40%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
