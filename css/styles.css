@@ -96,8 +96,6 @@
 }
 #restaurant-img {
   width: 90%;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
 }
 #restaurant-address {
   font-size: 12pt;
