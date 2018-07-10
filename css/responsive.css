@@ -54,7 +54,7 @@
     flex-wrap: wrap;
   }
   #reviews-list {
-    width: 200%;
+    width: 230%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -101,6 +101,7 @@
     font-size: 16pt;
   }
   #reviews-list {
+    width: 190%
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -135,9 +136,6 @@
   }
   #restaurant-hours {
     width: 100%;
-  }
-  #reviews-container {
-    padding: 0;   
   }
 }
 
