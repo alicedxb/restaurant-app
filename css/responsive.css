@@ -150,8 +150,9 @@
     font-weight: 400px;
     letter-spacing: 2px;
   }
-  #restaurant-list {
-    padding: 30px 0 30px 30px;
+  #restaurants-list {
+    padding: 30px 30px 30px 30px;
+    width: 95%;
   }
   #restaurant-address {
     font-size: 10pt;
