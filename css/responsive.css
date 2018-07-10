@@ -54,7 +54,7 @@
     flex-wrap: wrap;
   }
   #reviews-list {
-    width: 100%;
+    width: 200%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -98,12 +98,9 @@
     padding: 10px 0 60px 40px;
   }
   #reviews-container h2 {
-    padding-left: 25px;
     font-size: 16pt;
   }
   #reviews-list {
-    width: 100%;
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
