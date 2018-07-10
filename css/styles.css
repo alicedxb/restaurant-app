@@ -25,11 +25,11 @@ ul, li {
   color: #333;
 }
 a {
-  color: #444;
+  color: #3397db;
   text-decoration: none;
 }
 a:hover, a:focus {
-  color: #3397db;
+  color: #d6eaf7
   text-decoration: none;
 }
 a img{
