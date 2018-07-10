@@ -316,23 +316,24 @@ padding: 0 30px;
   font-weight: bold;
   display: flex;
   align-items: baseline;
-  padding: 30px 20px 20px 30px;
-  background-color: #252831;
+  color: #252831;
 }
 #reviews-list li p:nth-child(2) {
   margin-left: auto;
   display: flex;
   align-items: baseline;
-  padding: 30px 20px 20px 30px;
-  background-color: #252831;
+  color: #252831;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 #reviews-list li p:nth-child(3) {
   margin-left: auto;
   display: flex;
   align-items: baseline;
-  padding: 30px 20px 20px 30px;
-  background-color: #252831;
+  color: #252831;
   margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 #restaurant-hours td {
   color: #666;
