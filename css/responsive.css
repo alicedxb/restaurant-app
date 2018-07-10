@@ -155,5 +155,17 @@
     width: 100%;
     padding: 0 0 0 0;
   }
+  nav {
+  width: 115%
+  }
+  #map-container {
+    width: 100%;
+  }
+  .filter-options {
+    width: 115%;
+  }
+  #footer {
+    width: 115%;
+  }
 }
 
