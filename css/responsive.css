@@ -101,6 +101,9 @@
   #restaurant-address {
     font-size: 14pt;
   }
+  #restaurant-list {
+    padding: 30px 10px 60px 30px;
+  }
   #restaurant-hours {
     width: 80%;
   }
