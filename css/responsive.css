@@ -82,6 +82,15 @@
   #reviews-list li p:first-child {
   font-size: 1.2em;
 }
+  .filter-options {
+    height: 120px;
+  }
+  .filter-options select {
+    width: 95%;
+    margin: 7px;
+  }
+}
+
 @media screen and (max-width: 490px) {
   nav h1 a {
     font-size: 18pt;
@@ -107,6 +116,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+  .filter-options h2 {
+    margin: 0 30px 5px 10px;
   }
 }
 
