@@ -136,6 +136,12 @@
   }
 }
 
+@media screen and (max-width: 413px) {
+  #restaurants-list {
+    padding: 30px 30px 60px 20px;
+  }
+}
+
 @media screen and (max-width: 390px) {
   nav h1 a {
     font-size: 14pt;
@@ -151,8 +157,9 @@
     letter-spacing: 2px;
   }
   #restaurants-list {
-    padding: 30px 30px 30px 30px;
-    width: 95%;
+    padding: 30px 30px 30px 20px;
+    margin-left: 10px;
+    width: 100%;
   }
   #restaurant-address {
     font-size: 10pt;
@@ -180,7 +187,8 @@
 
 @media screen and (max-width: 375px) {
   #restaurants-list {
-    padding: 30px 40px 30px 30px;
+    padding: 30px 40px 30px 10px;
+    margin-left: 6px;
   }
 }
 
@@ -200,7 +208,7 @@
   }
   #restaurants-list {
     padding: 30px 30px 30px 30px;
-    width: 95%;
+    width: 94%;
   }
   #restaurant-address {
     font-size: 10pt;
