@@ -42,7 +42,7 @@
     width: 50%;
   }
   #restaurants-list {
-    padding: 30px 40px 60px 30px;
+    padding: 30px 30px 60px 30px;
   }
   #restaurant-list li {
     width: 260px;
@@ -137,6 +137,54 @@
 }
 
 @media screen and (max-width: 390px) {
+  nav h1 a {
+    font-size: 14pt;
+    font-weight: 400;
+    letter-spacing: 4px;
+  }
+  header {
+    height: 50px;
+  }
+  #restaurant-name {
+    font-size: 14pt;
+    font-weight: 400px;
+    letter-spacing: 2px;
+  }
+  #restaurants-list {
+    padding: 30px 30px 30px 30px;
+    width: 95%;
+  }
+  #restaurant-address {
+    font-size: 10pt;
+  }
+  #restaurant-hours {
+    width: 100%;
+  }
+  #reviews-container {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  nav {
+  width: 115%
+  }
+  #map-container {
+    width: 115%;
+  }
+  .filter-options {
+    width: 115%;
+  }
+  #footer {
+    width: 115%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #restaurants-list {
+    padding: 30px 40px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   nav h1 a {
     font-size: 14pt;
     font-weight: 400;
