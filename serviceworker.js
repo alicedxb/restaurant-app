@@ -25,7 +25,7 @@ let cacheFiles = [
     './restaurant.html'
 ];
 
-// Installs the service worker
+// Installs the service worker, code from: https://developers.google.com/web/fundamentals/primers/service-workers/
 self.addEventListener('install ', function(e) {
     e.waitUntil(
         caches.open(staticCacheName).then(function(cache) {
@@ -34,7 +34,7 @@ self.addEventListener('install ', function(e) {
     );
 });
 
-// Activates cache and removes previous caches
+// Activates cache and removes previous caches, code from: https://developers.google.com/web/fundamentals/primers/service-workers/
 self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(cacheNames) {
@@ -50,7 +50,7 @@ self.addEventListener('activate', function(e) {
   );
 });
 
-// Fetches cache and add new elements to cache
+// Fetches cache and add new elements to cache, code from: https://developers.google.com/web/fundamentals/primers/service-workers/
 self.addEventListener('fetch', function(e) {
     e.respondWith(
       caches.open(staticCacheName).then(function(cache) {
