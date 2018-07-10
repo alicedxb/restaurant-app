@@ -41,6 +41,9 @@
   #restaurant-hours {
     width: 50%;
   }
+  #restaurants-list {
+    padding: 30px 30px 60px 30px;
+  }
   #restaurant-list li {
     width: 260px;
     padding: 0 10px 25px 0;
@@ -100,9 +103,6 @@
   }
   #restaurant-address {
     font-size: 14pt;
-  }
-  #restaurants-list {
-    padding: 30px 30px 60px 30px;
   }
   #restaurant-hours {
     width: 80%;
