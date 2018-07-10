@@ -153,18 +153,3 @@
   }
 }
 
-@media screen and (max-width: 330px) {
-  nav h1 a {
-    font-size: 12pt;
-    letter-spacing: 2px;
-  }
-  .filter-options select {
-    width: 125px;
-    font-size: 8pt;
-    padding: 0 5px 0 0;
-    margin: 10px 2px 0 0;
-  }
-  #footer {
-    padding: 3px;
-  }
-}
