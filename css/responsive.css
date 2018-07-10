@@ -113,12 +113,14 @@
   }
   #reviews-container h2 {
     font-size: 16pt;
+    margin-left: 25pt;
   }
   #reviews-list {
     width: 190%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 20px 20px 0 20px;
   }
   .filter-options h2 {
     margin: 0 30px 5px 10px;
