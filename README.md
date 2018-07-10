@@ -1,6 +1,6 @@
 ## Udacity FEND Restaurant Review App Project
 
-
+Conversion of a static webpage to a mobile-ready web application (stage 1). The design is responsive on different sized displays and accessible for screen reader use. A service worker has been added to begin the process of creating a seamless offline experience.
 
 ###### Access project online
 - Visit https://alicedxb.github.io/restaurant-app/
