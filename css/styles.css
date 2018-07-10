@@ -316,7 +316,6 @@ padding: 0 30px;
   font-weight: bold;
   display: flex;
   align-items: baseline;
-  background-color: #333;
   color: #252831;
 }
 #reviews-list li p:nth-child(2) {
