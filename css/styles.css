@@ -324,7 +324,6 @@ padding: 0 30px;
   align-items: baseline;
   color: #252831;
   font-weight: bold;
-  font-size: 1.2em;
 }
 #reviews-list li p:nth-child(3) {
   margin-left: auto;
@@ -333,7 +332,6 @@ padding: 0 30px;
   color: #252831;
   margin-bottom: 20px;
   font-weight: bold;
-  font-size: 1.2em;
 }
 #restaurant-hours td {
   color: #666;
